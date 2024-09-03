@@ -1,0 +1,39 @@
+:root {
+  --bg-color: dimgray;
+}
+
+body {
+  padding: 1rem 5rem;
+}
+
+#title {
+  background-color: var(--bg-color);
+  text-align: center;
+  padding: 1.5rem 0rem;
+  color: white;
+}
+
+.nav {
+  background-color: var(--bg-color);
+  text-align: center;
+  padding: 0.5rem 0rem;
+  font-weight: 200;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.nav-group-item {
+  display: inline;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  list-style: none;
+}
+.nav-group {
+  padding: 0;
+}
+
+.link :hover {
+  text-decoration: underline;
+}
