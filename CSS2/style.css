@@ -1,10 +1,9 @@
-h1 {
-  color: blue;
+:root {
+  --primary-color: grey;
 }
 
-a:hover {
+h1 {
   color: blue;
-  font-weight: bolder;
 }
 
 .submit {
@@ -24,4 +23,22 @@ a:hover {
 .container-center {
   max-width: 600px;
   margin: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link-primary {
+  border: 1px solid black;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  color: white;
+  padding: 5px;
+}
+.link-secondary {
+  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
+  color: black;
+  padding: 5px;
 }
