@@ -42,3 +42,12 @@ h1 {
   color: black;
   padding: 5px;
 }
+
+.list-group {
+  list-style: none;
+}
+
+.list-group-item {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
