@@ -1,5 +1,6 @@
 :root {
   --bg-color: dimgray;
+  --border-color: dimgray;
 }
 
 body {
@@ -13,23 +14,23 @@ body {
   color: white;
 }
 #post-title {
-  border: 1px solid var(--bg-color);
+  border: 1px solid var(--border-color);
   text-align: center;
   padding: 1.5rem 0rem;
   color: black;
   font-weight: 600;
 }
 #post-preview {
-  border: 1px solid var(--bg-color);
+  border: 1px solid var(--border-color);
 
   padding: 1.5rem 1rem;
   color: black;
-  font-weight: 400;
+  font-weight: 500;
   font-size: larger;
 }
 
 .nav {
-  background-color: var(--bg-color);
+  background-color: gray;
   text-align: center;
   padding: 0.5rem 0rem;
   font-weight: 200;
@@ -49,6 +50,18 @@ body {
   padding: 0;
 }
 
-.link :hover {
+.nav-group-item:hover {
   text-decoration: underline;
+  color: white;
+}
+
+.post-container {
+  border: 1px solid var(--border-color);
+  padding: 1rem 0rem;
+}
+
+.posts {
+  list-style: none;
+
+  padding: 0rem 1rem;
 }
