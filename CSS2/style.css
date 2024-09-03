@@ -51,3 +51,16 @@ h1 {
   display: inline;
   padding: 0rem 0.5rem;
 }
+
+.nav {
+  background-color: var(--primary-color);
+  padding: 1rem 0.5rem;
+}
+
+.nav-items {
+  text-align: right;
+}
+
+.nav .link {
+  color: white;
+}
