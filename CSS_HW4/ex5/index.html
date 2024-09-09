@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        border: 2px solid gray;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+      }
+      .details {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      p {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      span {
+        margin: 0px 5px;
+      }
+
+      .prodPrice {
+        font-weight: 200;
+      }
+      .description {
+        font-size: medium;
+        font-weight: lighter;
+      }
+
+      .price {
+        margin-top: 20px;
+        font-size: large;
+        font-weight: lighter;
+      }
+      .price p {
+        margin-top: 7px;
+      }
+      .price .amt {
+        font-weight: bold;
+      }
+      .price .total {
+        font-weight: bold;
+        font-size: larger;
+      }
+
+      button {
+        margin: 1rem 0rem;
+        padding: 7px 0px;
+        font-size: medium;
+        font-weight: 600;
+        color: white;
+        background-color: gray;
+        border: none;
+      }
+      .text {
+        text-align: center;
+        margin: 10px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Review Order</h1>
+      <div class="details">
+        <p>ITEM</p>
+
+        <div>
+          <span>QTY</span>
+          <span>TOTAL</span>
+        </div>
+      </div>
+      <div class="details">
+        <div>
+          <img src="https://via.placeholder.com/50" />
+        </div>
+        <div class="prodPrice">
+          <span>1</span>
+          <span>INR 999</span>
+        </div>
+      </div>
+      <div class="description">
+        <p>Limited addition cactus print bag</p>
+        <p>1 liter, green color</p>
+      </div>
+      <div class="details price">
+        <div>
+          <p>Subtotal</p>
+          <p>GST</p>
+          <p class="total">Grand Total</p>
+        </div>
+        <div>
+          <p class="amt">INR 999</p>
+          <p class="amt">INR 179</p>
+          <p class="total">INR 1178</p>
+        </div>
+      </div>
+      <button>Place Order</button>
+
+      <p class="text"><i>Cart Secured by Razorpay</i></p>
+    </div>
+  </body>
+</html>
