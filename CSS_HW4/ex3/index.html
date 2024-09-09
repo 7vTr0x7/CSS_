@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .main {
+        text-align: center;
+      }
+      .nav-group {
+        display: flex;
+        flex-wrap: wrap;
+
+        list-style: none;
+        justify-content: space-between;
+        padding: 0px;
+      }
+      .nav-group-item {
+        margin: 0px 2rem;
+      }
+
+      .active {
+        padding: 5px;
+        color: white;
+        background-color: #0d6efd;
+        border-radius: 5px;
+      }
+      .nav-link {
+        text-decoration: none;
+      }
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem 0rem;
+        gap: 1rem;
+      }
+      img {
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Photo Gallery</h1>
+      <nav>
+        <ul class="nav-group">
+          <li class="nav-group-item">
+            <a class="nav-link active" href="index.html">All</a>
+          </li>
+          <li class="nav-group-item">
+            <a class="nav-link" href="index.html">Nature</a>
+          </li>
+          <li class="nav-group-item">
+            <a class="nav-link" href="index.html">Birds</a>
+          </li>
+          <li class="nav-group-item">
+            <a class="nav-link" href="index.html">Animals</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="cards">
+        <div class="card">
+          <img src="https://placehold.co/150x150?text=Nature" />
+        </div>
+        <div class="card">
+          <img src="https://placehold.co/150x150?text=Birds" />
+        </div>
+        <div class="card">
+          <img src="https://placehold.co/150x150?text=Animals" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
