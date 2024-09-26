@@ -1,5 +1,8 @@
 import React from "react";
 import "./header.style.css";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaMoon } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -11,7 +14,21 @@ const Header = () => {
           <li className="nav-items">AUTHOR</li>
           <li className="nav-items">HELP</li>
         </ul>
-        <div></div>
+        <div className="nav-right">
+          <div className="icons">
+            <span>
+              <FaFacebookF />
+            </span>
+            <span>
+              <FaTwitter />
+            </span>
+            <span>
+              <FaMoon />
+            </span>
+          </div>
+
+          <button className="sub-btn">Subscribe</button>
+        </div>
       </nav>
     </header>
   );
