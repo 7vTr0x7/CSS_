@@ -17,6 +17,9 @@
   display: flex;
   gap: 3rem;
 }
+.nav > li {
+  font-size: larger;
+}
 
 .bg {
   background-color: black;
@@ -33,7 +36,7 @@
 }
 .icons > span {
   margin: 0rem 1rem;
-  font-size: medium;
+  font-size: large;
 }
 
 .sub-btn {
