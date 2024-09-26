@@ -1,5 +1,5 @@
 .img {
-  height: 35vh;
+  height: 40vh;
   width: 100%;
   border-radius: 0.5rem;
 }
@@ -21,4 +21,10 @@ p {
   margin: 1rem 0rem;
   font-size: larger;
   color: gray;
+}
+.card-col {
+  margin: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Author = ({ read, min }) => {
+const Author = ({ read, min, bigCard, mainCard }) => {
   return (
     <div className="author">
       <div>
@@ -12,8 +12,12 @@ const Author = ({ read, min }) => {
       </div>
       <div className="author-info">
         <p className="author-name">Ghost</p>
-        <div className="date-read">
-          <p>25 FEB 2020 | {min} MIN</p>
+        <div
+          className="date-read"
+          style={bigCard && { display: "flex", gap: "10px" }}>
+          <p>
+            25 FEB 2020 {mainCard ? "|" : "."} {min} MIN
+          </p>
           <p>{read && "READ"}</p>
         </div>
       </div>

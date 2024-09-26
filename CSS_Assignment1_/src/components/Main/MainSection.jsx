@@ -25,7 +25,7 @@ const MainSection = () => {
             getting started posts that will help you get familiar with
             everything in no time.
           </p>
-          <Author read={true} min={1} />
+          <Author read={true} min={1} mainCard={true} />
         </div>
       </div>
       <hr />
@@ -65,6 +65,32 @@ const MainSection = () => {
         />
       </div>
       <hr />
+      <div className="cards">
+        <Cards
+          bigCard={true}
+          url={
+            "https://res.cloudinary.com/dwxq0majx/image/upload/fl_preserve_transparency/v1727264798/ghostImage5_mgxrty.jpg?_s=public-apps"
+          }
+          title={"Writing posts with Ghost ✍"}
+          para={
+            " Discover familiar formatting options in a functional toolbar and the ability to add dynamic content seamlessly."
+          }
+          read={true}
+          min={3}
+        />
+        <Cards
+          bigCard={true}
+          url={
+            "https://res.cloudinary.com/dwxq0majx/image/upload/fl_preserve_transparency/v1727264798/ghostImage6_ezgbwj.jpg?_s=public-apps"
+          }
+          title={"Publishing options"}
+          para={
+            "The Ghost editor post settings menu has everything you need to fully optimize and distribute your content effectively."
+          }
+          read={true}
+          min={2}
+        />
+      </div>
     </main>
   );
 };
