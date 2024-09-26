@@ -37,3 +37,38 @@ h2 {
   font-size: x-large;
   color: gray;
 }
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.author-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+.author-info > p {
+  margin: 0px;
+}
+.author-info > div > p {
+  margin: 0px;
+}
+
+.author-logo {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.author-name {
+  font-size: large;
+  font-weight: bold;
+}
+
+.date-read {
+  color: gray;
+}
+
+hr {
+  margin: 2rem 0rem;
+}

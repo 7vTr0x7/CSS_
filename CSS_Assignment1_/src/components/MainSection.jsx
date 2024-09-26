@@ -1,5 +1,6 @@
 import React from "react";
 import "./main.style.css";
+import Author from "./Author";
 
 const MainSection = () => {
   return (
@@ -23,8 +24,10 @@ const MainSection = () => {
             getting started posts that will help you get familiar with
             everything in no time.
           </p>
+          <Author />
         </div>
       </div>
+      <hr />
     </main>
   );
 };
