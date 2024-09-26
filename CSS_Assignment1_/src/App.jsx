@@ -1,6 +1,6 @@
-import Header from "./components/Header";
-import MainSection from "./components/MainSection";
-import Top from "./components/Top";
+import Header from "./components/Header/Header";
+import MainSection from "./components/Main/MainSection";
+import Top from "./components//Top/Top";
 
 function App() {
   return (

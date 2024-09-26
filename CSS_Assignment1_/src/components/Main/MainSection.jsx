@@ -1,6 +1,6 @@
 import React from "react";
 import "./main.style.css";
-import Author from "./Author";
+import Author from "../Author";
 
 const MainSection = () => {
   return (
