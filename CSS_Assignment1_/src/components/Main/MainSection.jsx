@@ -1,7 +1,7 @@
 import React from "react";
 import "./main.style.css";
 import Author from "../Author";
-import Cards from "../card/Cards";
+import Cards from "../Card/Cards";
 
 const MainSection = () => {
   return (
