@@ -11,7 +11,7 @@ const Author = ({ read, min, bigCard, mainCard }) => {
         />
       </div>
       <div className="author-info">
-        <p className="author-name">Ghost</p>
+        <p className="author-name">GHOST</p>
         <div
           className="date-read"
           style={bigCard && { display: "flex", gap: "10px" }}>
