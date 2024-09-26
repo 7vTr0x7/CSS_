@@ -8,6 +8,13 @@ main {
 
   gap: 2rem;
 }
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
 .main-card-img {
   height: 70vh;
   width: 750px;

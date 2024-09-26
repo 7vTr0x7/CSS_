@@ -1,0 +1,24 @@
+.img {
+  height: 35vh;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.heading {
+  color: blueviolet;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  margin: 0px;
+}
+.card-title {
+  margin: 0px;
+  font-size: x-large;
+}
+.card-para {
+  margin: 1rem 0rem;
+  font-size: larger;
+  color: gray;
+}

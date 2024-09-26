@@ -1,6 +1,6 @@
 import React from "react";
 
-const Author = () => {
+const Author = ({ read, min }) => {
   return (
     <div className="author">
       <div>
@@ -13,8 +13,8 @@ const Author = () => {
       <div className="author-info">
         <p className="author-name">Ghost</p>
         <div className="date-read">
-          <p>25 FEB 2020 | 1 MIN</p>
-          <p>READ</p>
+          <p>25 FEB 2020 | {min} MIN</p>
+          <p>{read && "READ"}</p>
         </div>
       </div>
     </div>
